@@ -134,7 +134,7 @@ a {
 
 /* Header */
 header {
-    background-color: #8b8a5f; /* muted olive */
+    background-color: #636211; /* muted olive */
     color: #f0ede5; /* tan text */
     padding: 1rem 2rem;
     text-align: center;
@@ -251,6 +251,7 @@ footer {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     transition: background 0.3s;
 }
+
 .btn:hover {
     background-color: #6a6946;
 }
