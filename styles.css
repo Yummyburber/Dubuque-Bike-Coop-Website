@@ -119,7 +119,7 @@ footer {
 
 /* General Styles */
 body {
-    font-family: 'Verdana', sans-serif; /* playful yet readable */
+    font-family: 'Century Gothic', sans-serif; /* professional */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -134,7 +134,7 @@ a {
 
 /* Header */
 header {
-    background-color: #408a0f; /* Bright Green */
+    background-color: #55a71e; /* Bright Green */
     color: #f0ede5; /* tan text */
     padding: 1rem 1rem;
    
@@ -151,7 +151,7 @@ header h1 {
     font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 2px;
-    font-family: 'Arial', cursive, sans-serif; /* playful */
+    font-family: 'Century Gothic'; /* professional */
 }
 /*nav {
     margin-top: 1rem;
@@ -161,7 +161,7 @@ nav a {
     margin: 0 1rem;
     color: #f0ede5;
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Century Gothic', sans-serif;
       border-bottom: 4px
 }
 
@@ -189,10 +189,10 @@ nav a {
 .hero-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    font-family: 'Arial', cursive, sans-serif;
+    font-family: 'Century Gothic';
 }
 .hero-content a {
-    background-color: #408a0f; /* olive button */
+    background-color: #55a71e; /* olive button */
     padding: 0.8rem 1.5rem;
     color: #f0ede5;
     border-radius: 25px;
@@ -213,7 +213,7 @@ h2 {
     text-align: center;
     margin-bottom: 2rem;
     color: #3b3a30;
-    font-family: 'Arial', cursive, sans-serif;
+    font-family: 'Century Gothic';
 }
 
 /* Grid Layout */
@@ -231,12 +231,12 @@ h2 {
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(59, 58, 48, 0.2); /* soft brown shadow */
-    border: 2px solid #408a0f; /* subtle green border */
+    border: 2px solid #55a71e; /* subtle green border */
 }
 
 /* Footer */
 footer {
-    background-color: #408a0f; /* Bright Green */
+    background-color: #55a71e; /* Bright Green */
     color: #f0ede5; /* tan text */
     text-align: center;
     padding: 2rem 1rem;
@@ -251,7 +251,7 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 25px;
     font-weight: bold;
-    font-family: 'Arial', cursive, sans-serif;
+    font-family: 'Century Gothic';
     transition: background 0.3s;
 }
 
@@ -266,4 +266,16 @@ footer {
     height: 200px; /* adjust as needed */
     width: 400px;
 
+}
+
+html, body, #events {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.events h2 {
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Century Gothic';
 }
